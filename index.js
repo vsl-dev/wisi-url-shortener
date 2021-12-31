@@ -6,8 +6,6 @@ const ejs = require("ejs");
 const url = require("url");
 const app = express()
 const port = 8080
-// const Database = require("lundb");
-// const db = new Database()
 const {
     JsonDatabase
 } = require("wio.db");
@@ -63,7 +61,6 @@ app.get('/create/custom', (req, res) => {
       )
         return res.send("This link is already in the system!");
   db.set(q, a)
-//   res.json({"url": "https://url.vslpro.repl.co/" + q})
   res.render("success", {
 	  url: q
   })
@@ -84,7 +81,6 @@ app.get('/create/random', (req, res) => {
  res.render("success", {
 	  url: q
   })}
-//password.randomPassword({ lenght: 4, characters: [password.lower, password.upper, password.digits]}) | res.json({"url": "https://url.vslpro.repl.co/" + q})
 })
 
 app.get('/:code', (req, res) => {
@@ -95,5 +91,5 @@ app.get('/:code', (req, res) => {
 }});
 
 app.listen(port, () => {
-  console.log(`Proje ${port} üzerinden başlatıldı.`)
+  console.log(`Wisi is online! Port: ${port} .`)
 })
