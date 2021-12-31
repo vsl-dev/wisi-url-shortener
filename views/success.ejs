@@ -1,0 +1,54 @@
+<%- include('parts/head') %>
+<title> Wisi | Url Shortener </title>
+
+
+<center>
+<h1 style="margin-top: 200px; font-size: 40px;" >Succes <i style="color: green;" class="fa-solid fa-badge-check"></i></h1>
+
+<div style="width: 40%" class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="https://wisi.ml/" aria-label="https://wisi.ml/" aria-describedby="basic-addon2" value="https://wisi.ml/<%= url %>" id="myInput" disabled>
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" onclick="myFunction()">Copy</button>
+</div>
+</div>
+  </div>
+</div>
+
+<a href="https://vslapi.cf/api/qrcode?text=https://wisi.ml/<%= url %>" target="_blank">
+<img src="https://vslapi.cf/api/qrcode?text=https://wisi.ml/<%= url %>" height="220" width="220">
+</a>
+
+</center>
+
+<%- include('parts/footer') %>
+
+
+<script src="https://kit.fontawesome.com/1940a844c3.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script>
+	
+function myFunction() {
+
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied url to clipboard! URL: " + copyText.value);
+  window.location = '/';
+}
+
+
+</script>
+
+  </body>
+</html>
