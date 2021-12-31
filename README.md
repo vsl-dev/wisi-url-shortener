@@ -3,6 +3,11 @@ Basic url shortener! Example - [wisi.ml](https://wisi.ml)
 
 [![Stars](https://img.shields.io/github/stars/vsl-dev/wisi-url-shortener?style=social)](https://vsldev.tk/github) [![License](https://img.shields.io/github/license/vsl-dev/wisi-url-shortener)](https://github.com/vsl-dev/wisi-url-shortener/blob/v1.0/LICENSE) [![Version](https://img.shields.io/github/v/release/vsl-dev/wisi-url-shortener)](https://vsldev.tk/links) [![Discord](https://img.shields.io/discord/762267257551978527)](https://vsldev.tk/discord) [![wisi.ml](https://img.shields.io/website?url=https%3A%2F%2Fwisi.ml)](https://wisi.ml)
 
+# Copyright! 
+It is forbidden to delete the footer part below! If those who do are detected, good things will not happen :)
+
+![image](https://user-images.githubusercontent.com/91078294/147817673-6345b921-a229-45b2-90e4-cc3712c4a808.png)
+
 # Screenshots
 
 ### Custom Shortener
@@ -25,3 +30,4 @@ Basic url shortener! Example - [wisi.ml](https://wisi.ml)
 # Support
 
 [Support & Feedback](https://vsldev.tk/discord)
+
