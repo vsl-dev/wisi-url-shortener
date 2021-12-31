@@ -1,5 +1,5 @@
 # Wisi Url Shortener
-Basic url shortener!
+Basic url shortener! Example - [wisi.ml](https://wisi.ml)
 
 [![Stars](https://img.shields.io/github/stars/vsl-dev/aoi-js-botlist-bot?style=social)](https://vsldev.tk/github) [![Discord](https://img.shields.io/discord/762267257551978527)](https://vsldev.tk/discord) [![License](https://img.shields.io/github/license/vsl-dev/aoi-js-botlist-bot)](https://github.com/vsl-dev/aoi-js-botlist-bot/blob/v1.0/LICENSE) [![Version](https://img.shields.io/github/v/release/vsl-dev/aoi-js-botlist-bot)](https://vsldev.tk/links) 
 
